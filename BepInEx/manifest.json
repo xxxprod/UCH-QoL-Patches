@@ -1,10 +1,9 @@
 {
-    "name": "PlayerTracker",
-    "version_number": "1.0.4",
-    "website_url": "https://github.com/xxxprod/UCH-PlayerTracker-Mod",
-    "description": "This Mod draws a line on each players path to visualize their movements.",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100",
-        "xxxmodder-BepInEx_ConfigurationManager-18.0.0"
-    ]
+  "name": "UCH-Qol-Patches",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/xxxprod/UCH-QoL-Patches",
+  "description": "This mod is intended to patch annoying things in Ultimate Chicken Horse.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
 }

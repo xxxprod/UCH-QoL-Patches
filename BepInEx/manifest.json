@@ -1,8 +1,8 @@
 {
-  "name": "UCH-Qol-Patches",
+  "name": "UCH_Qol_Patches",
   "version_number": "1.0.0",
   "website_url": "https://github.com/xxxprod/UCH-QoL-Patches",
-  "description": "This mod is intended to patch annoying things in Ultimate Chicken Horse.",
+  "description": "This mod is intended to patch annoying things in Ultimate Chicken Horse. Currently it only allows for the game audio to continue running in background.",
   "dependencies": [
     "BepInEx-BepInExPack-5.4.2100"
   ]

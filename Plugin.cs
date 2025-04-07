@@ -14,6 +14,7 @@ public class Plugin : BaseUnityPlugin
     {
         AkSoundEngineControllerPatches.InitializeConfig(Config);
         DeathDelayPatch.InitializeConfig(Config);
+        HideChat.InitializeConfig(Config);
 
         new Harmony("uch.patch.qol.xxxprod.com").PatchAll();
 

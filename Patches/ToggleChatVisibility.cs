@@ -15,14 +15,14 @@ namespace UCHQoLPatches.Patches {
 
         public static void InitializeConfig(ConfigFile config) {
             ToggleVisibility = config.Bind(
-                "ChatVisibility",
-                "ToggleWithKey",
+                "QoL - Chat",
+                "Toggle With Key",
                 KeyCode.Alpha0,
                 "Key to press to automatically open/close ChatDisplay"
                 );
             MinimumHideLength = config.Bind(
-                "ChatVisibility",
-                "MinimumDelayBeforeVisible",
+                "QoL - Chat",
+                "Min Delay from Keypress",
                 0.5f,
                 "The minimum amount of time between pressing the toggle key and the chat reappearing (in seconds).\nMessages sent in the next [hidelength] seconds will not reopen the chat, and you will not be able to open the chat for this amount of time."
                 );

@@ -7,9 +7,8 @@ using System.Text;
 
 namespace UCHQoLPatches.Patches {
     // Some code based on https://github.com/cekco/UCH-BetterRespawn
-    // Optimized to not get called every phase change. Other mods may overwrite this value later.
-
-    public class DeathDelayPatch {
+    [HarmonyPatch]
+    public static class DeathDelayPatch {
 
         private static ConfigEntry<float> freeplayDeathTimer;
         private static ConfigEntry<float> challengeDeathTimer;
@@ -41,6 +40,7 @@ namespace UCHQoLPatches.Patches {
                     _ => player.CharacterPrefab.maxDeathDelay // default value, steals from the parent prefab used to construct.
                 };
             }
+            UnityEngine.Debug.Log("abcdef | " + ___PlayerQueue.Count.ToString());
         }
     }
 }

@@ -42,7 +42,7 @@
 			<Private>False</Private>
 		</Reference>
 		<Reference Include="UnityEngine.UI">
-		  <HintPath>..\..\UltimateChickenHorse_Data\Managed\UnityEngine.UI.dll</HintPath>
+		  <HintPath>$(UCHDir)\UltimateChickenHorse_Data\Managed\UnityEngine.UI.dll</HintPath>
 		  <Private>False</Private>
 		</Reference>
 	</ItemGroup>

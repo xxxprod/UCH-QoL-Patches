@@ -40,7 +40,6 @@ namespace UCHQoLPatches.Patches {
                     _ => player.CharacterPrefab.maxDeathDelay // default value, steals from the parent prefab used to construct.
                 };
             }
-            UnityEngine.Debug.Log("abcdef | " + ___PlayerQueue.Count.ToString());
         }
     }
 }

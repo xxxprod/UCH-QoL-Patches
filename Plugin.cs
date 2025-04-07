@@ -12,6 +12,7 @@ public class Plugin : BaseUnityPlugin
 {
     private void Awake()
     {
+        AkSoundEngineControllerPatches.InitializeConfig(Config);
         DeathDelayPatch.InitializeConfig(Config);
 
         new Harmony("uch.patch.qol.xxxprod.com").PatchAll();
